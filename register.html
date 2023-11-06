@@ -11,27 +11,23 @@
     <body>
 
         <!-- NAVBAR -->
+    
+<nav>
+    <div class="navbar-content">
+        <div class="logo">Ringles®</div>
+        <div class="navbar-buttons">
+            <div class="navbar-button"><a href="index.html">Início</a></div>              
+            <div class="navbar-button">
+                <a href="mailto:support@coinevoo.com.br">Contato</a>
+            </div>                
+            <div class="navbar-button" id="about-link">Sobre</div>
+        </div>
+        <div class="login-button">
+            <a href="login.html"><button>Entrar</button></a>
+        </div>
+    </div>
+</nav>
 
-        <nav>
-            <div class="navbar-content">
-                <div class="logo">Coinevoo®</div>
-                <div class="navbar-buttons">
-                    <div class="navbar-button"><a href="index.html">Home</a></div>
-                    <div class="navbar-button">
-                        <a href="login.html">Dashboard <span class="new-label">New</span></a>
-                    </div>
-                    <div class="navbar-button">
-                        <a href="mailto:support@coinevoo.com.br">Contact</a>
-                    </div>
-                    <div class="navbar-button">About</div>
-                </div>
-                <div class="login-button">
-                    <a href="login.html"><button>Log in</button></a>
-                </div>
-            </div>
-        </nav>
-
-    </body>
 
 
 
@@ -40,12 +36,12 @@
     <div class="register-container">
         <div class="register-card">
             <form class="register-content" id="form-register" method="" form-action="">
-                <h2>Register</h2>
-                <input type="name" id="primeiro_nome" placeholder="First name">
+                <h2>Registrar</h2>
+                <input type="name" id="primeiro_nome" placeholder="Nome">
                 <input id="primeiro_nome-erro" type="hidden" readonly
                     style="border: none; color: red; background:transparent; width: 180px;height: 10px;">
 
-                <input type="name" id="ultimo_nome" placeholder="Last name">
+                <input type="name" id="ultimo_nome" placeholder="Sobrenome">
                 <input id="ultimo_nome-erro" type="hidden" readonly
                     style="border: none; color: red; background:transparent;width: 180px;height: 10px;">
 
@@ -54,7 +50,7 @@
                     style="border: none; color: red; background:transparent;width: 150px;
                                                                                                                 height: 10px;">
 
-                <input type="number" id="telefone" placeholder="Phone">
+                <input type="number" id="telefone" placeholder="Telefone">
                 <input id="telefone-erro" type="hidden" readonly
                     style="border: none; color: red;background:transparent;width: 180px;height: 10px;">
 
@@ -62,25 +58,25 @@
                 <input id="email-erro" type="hidden" readonly
                     style="border: none; color: red;background:transparent; width: 180px;height: 10px;">
 
-                <input type="password" id="senha" placeholder="Password">
+                <input type="password" id="senha" placeholder="Senha">
                 <input id="senha-erro" type="hidden" readonly
                     style="border: none; color: red;background:transparent;width: 180px;height: 10px;">
 
-                <input type="password" id="confirm_senha" placeholder="Confirm Password">
+                <input type="password" id="confirm_senha" placeholder="Confirmar senha">
                 <input id="password-erro" type="hidden" readonly
                     style="border: none; color: red;background:transparent;width: 180px;height: 10px;">
 
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="form-checkbox">
                     <label class="custom-control-label" for="form-checkbox">
-                        I've read and accept <a href="https://sistema.coinevoo.com.br/documents/termos.pdf"
+                        Eu li e aceitei os <a href="https://sistema.coinevoo.com.br/documents/termos.pdf"
                             target="_blank">
-                            Terms & Conditions</a></label>
+                            Termos & condições</a></label>
                 </div>
 
                 <div class="button-group">
-                    <button class="button-main">Create Account</button>
-                    <button class="account-button">Already have an account? Log in</button>
+                    <button class="button-main">Criar conta</button>
+                    <button class="account-button">Já possúi uma conta? Entrar</button>
                 </div>
             </form>
         </div>
@@ -88,18 +84,20 @@
 
 
 
-    <!-- FOOTER -->
+     <!-- FOOTER -->
 
-    <footer>
+
+     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <h1>Coinevoo®</h1>
-                <p>Founded by a team of seasoned experts in blockchain<br>
-                    technology and finance, our mission is to make<br>
-                    cryptocurrency trading accessible, secure, and profitable for everyone.
+                <h1>Ringles®</h1>
+                <p>Fundado por uma equipe de especialistas experientes em<br>
+                     marketing digital e educação, nossa missão é tornar a <br>
+                     educação em marketing digital acessível, abrangente e <br>
+                     valiosa para todos.
                 </p>
                 <div id="footer_community">
-                    <h1>Community</h1>
+                    <h1>Comunidade</h1>
                 </div>
                 <div id="footer_social_media">
                     <a href="https://instagram.com/coinevoo_br?igshid=MzRlODBiNWFlZA==" class="footer-link"
@@ -138,80 +136,22 @@
             <div id="footer-info">
                 <div id="footer-support-legal">
                     <div id="footer-suport">
-                        <h1>Support</h1>
-                        <a href="mailto:support@coinevoo.com">Contact us</a>
+                        <h1>Suporte</h1>
+                        <a href="mailto:support@coinevoo.com">Entre em contato</a>
                     </div>
                     <div id="footer-legal">
-                        <h1>Legal</h1>
-                        <a href="#" target="_blank" class="footer-link-button">Privacy Policy</a><br>
+                        <h1>Termos</h1>
+                        <a href="#" target="_blank" class="footer-link-button">Política de privacidade</a><br>
                         <a href="https://sistema.coinevoo.com.br/documents/termos.pdf" target="_blank"
-                            class="footer-link-button">Terms and
-                            Conditions</a>
+                            class="footer-link-button"></a>
                     </div>
                 </div>
                 <div id="footer-copyright">
-                    &copy; 2023 Coinevoo - All rights reserved.
+                    &copy; 2023 Ringles - todos os direitos reservados
                 </div>
             </div>
         </div>
     </footer>
+    <script src="javascript/login.js"></script>
 </body>
-<script>
-    let form = document.getElementById("form-register");
-    form.addEventListener("submit", async (e) => {
-        let submit = document.getElementById("submit-register");
-        submit.disabled = true;
-        e.preventDefault();
-
-        let primeiro_nome = document.getElementById("primeiro_nome").value;
-        let ultimo_nome = document.getElementById("ultimo_nome").value;
-        let cpf = document.getElementById("cpf").value;
-        let telefone = document.getElementById("telefone").value;
-        let email = document.getElementById("email").value;
-        let senha = document.getElementById("senha").value;
-        let confirm_senha = document.getElementById("confirm_senha").value;
-
-        try {
-            const response = await fetch("register.php", {
-                method: "POST",
-                body: JSON.stringify({
-                    primeiro_nome: primeiro_nome,
-                    ultimo_nome: ultimo_nome,
-                    cpf: cpf,
-                    telefone: telefone,
-                    email: email,
-                    senha: senha,
-                    confirm_senha: confirm_senha
-                }),
-                headers: {
-                    "Content-type": "application/json; charset=UTF-8"
-                }
-            });
-
-            if (response.ok) {
-                form.reset();
-                Swal.fire(
-                    'Sucesso!',
-                    'Cadastro realizado, faça login para continuar!.',
-                    'success'
-                )
-
-            } else {
-                const text = await response.text();
-                let erros = JSON.parse(text);
-                erros.erros.forEach(element => {
-                    console.log(element.parameter_name);
-                    let inputErro = document.getElementById(element.parameter_name + "-erro");
-                    inputErro.type = "text";
-                    inputErro.value = element.message;
-                });
-            }
-        } catch (error) {
-            console.error("An error occurred:", error);
-        } finally {
-            submit.disabled = false;
-        }
-    });
-</script>
-
 </html>
