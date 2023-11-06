@@ -1,17 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #FEFEFE;
     font-family: 'Inter', sans-serif;
 }
 
 /* NAV BAR */
 
 nav {
-    background-color: #000000;
+    background-color: #FEFEFE;
     height: 76px;
     border-bottom: 1px solid #ffffff;
     position: fixed; 
+    color: #000;
     top: 0; 
     width: 100%;
     z-index: 1000;
@@ -30,7 +31,7 @@ nav {
 .logo{
     font-size: 25px;
     margin-left: 30px;
-    color: #ffffff;
+    color: #363636;
     font-weight: 200;
 }
 
@@ -40,7 +41,7 @@ nav {
 
 .navbar-button {
     font-size: 15px;
-    color: #ffffff;
+    color: #363636;
     margin: 0 15px;
     cursor: pointer;
     text-decoration: none;
@@ -50,7 +51,7 @@ nav {
     border-radius: 11px;
     width: 71px;
     height: 39px;
-    background-color: #000000;
+    background-color: #FF5F47;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,10 +60,11 @@ nav {
 
 .login-button button {
     font-size: 15px;
-    color: #000000;
+    color: #FEFEFE;
     background: none;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .new-label {
@@ -79,8 +81,9 @@ nav {
 }
 .navbar-button a {
     text-decoration: none; 
-    color: #ffffff; 
+    color: #363636;
 }
+
 
 /* DASHBOARD */
 
